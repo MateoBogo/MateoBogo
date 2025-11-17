@@ -34,42 +34,16 @@ root@Mateo:~# cat profile.txt
 ### 🛠️ Tech Stack
 ```
 Frontend    : React · Next.js · TypeScript · TailwindCSS
-Backend     : Node.js · Express · NestJS · REST · GraphQL
+Backend     : Rust · Python · Java · C#
 Database    : PostgreSQL · MongoDB · Redis
 DevOps      : Docker · CI/CD · Linux · Nginx
 ```
 
-### 🔓 Security Arsenal
-```bash
-# Web Application Security
-→ Burp Suite, OWASP ZAP, Nikto, Dirb/Dirbuster, ffuf
-→ SQL Injection, XSS, CSRF, IDOR, Authentication bypass
-→ OWASP Top 10, API Security Testing
-
-# Network & Reconnaissance
-→ Nmap, Masscan, Wireshark, tcpdump, Netcat
-→ Subdomain enumeration, Port scanning, Service fingerprinting
-→ theHarvester, Sherlock, OSINT frameworks
-
-# Cryptography & Password Cracking
-→ Hashcat, John the Ripper, Hydra, CrackStation
-→ Hash identification, Rainbow tables, Dictionary attacks
-→ SSL/TLS analysis, Certificate validation
-
-# Binary & Reverse Engineering
-→ Ghidra, radare2, GDB, IDA Free
-→ Buffer overflow, Format string vulnerabilities
-→ Assembly (x86/x64), ELF/PE analysis
-
-# Exploitation & Post-Exploitation
-→ Metasploit, SQLmap, Exploit-DB
-→ Privilege escalation (Linux/Windows)
-→ Pivoting, Lateral movement techniques
-
-# Tools & Environment
-→ Kali Linux, ParrotOS, VirtualBox/VMware
-→ Git, GitHub, tmux, Neovim, VSCode
-→ Python scripting for automation
+### 🔓 Security Skills
+```
+AI Pentest · Prompt Injection · Reverse Engineering · OSINT
+Steganography · Web Exploitation · Cryptography · Binary Analysis
+Network Security · Bug Bounty · CTF Player
 ```
 
 ---
