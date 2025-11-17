@@ -23,36 +23,48 @@
 <!-- Dynamic Root-Me Stats Card -->
 <p align="center">
   <a href="https://www.root-me.org/Mateo-674005?lang=fr#d74a6ce754bc0254cd9b5ae31a29fe19" target="_blank">
-    <img src="https://rootme-readme-stats.vercel.app/api?username=Mateo&style=dark&gstats=show" alt="Root-Me Stats" />
+    <img src="https://root-me-diff.vercel.app/rm-gh?nickname=Mateo-674005&gstats=show&style=dark" alt="Root-Me Stats" />
   </a>
 </p>
 
 ---
 
 ## 👨‍💻 About me
+
 ```bash
 root@Mateo:~# cat profile.txt
 - 🧠 Fullstack developer (specialized in cybersecurity)
-- 🎓 Student 
+- 🎓 Student
 - 🧪 CTFs · Red Teaming · pentesting · AI security research
 - 🎯 Goal: ship scary-good, maintainable code that survives real abuse
+```
 
-Tech stack:
+### 🛠️ Tech stack
+```
 Frontend : React · Next.js · TypeScript · TailwindCSS
 Backend  : Node.js · Express · NestJS · REST · GraphQL
 Database : PostgreSQL · MongoDB · Redis
 DevOps   : Docker · CI/CD · Linux · Nginx
 Security : Root-Me · CTFs · basic pentesting · Burp Suite · nmap · Wireshark
 Tools    : Git · GitHub · VSCode · tmux · Neovim
+```
 
-GitHub stats:
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=MateoBogo&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" /> </p>
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MateoBogo&layout=compact&theme=radical&hide_border=true" alt="Top Langs" /> </p>
+---
 
-Live log (flashing terminal vibes):
-<p align="center"> <marquee behavior="alternate" scrollamount="6"> <span style="color:#00ff00; font-family: monospace; font-size: 18px;"> [LOG] New commit pushed — scanning the stack for weak spots... </span> </marquee> </p>
+## 📊 GitHub stats
 
-Sample terminal mood:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MateoBogo&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MateoBogo&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+</p>
+
+---
+
+## 🔥 Live terminal mood
+
 ```bash
 root@Mateo:~# nmap -A github.com/MateoBogo
 PORT    STATE SERVICE
@@ -67,4 +79,6 @@ root@Mateo:~# ./run.sh
 > Deploying with 1% mercy.
 ```
 
-<p align="center"> <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="400" alt="Glitch Effect" /> </p>
+<p align="center">
+  <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="500" alt="Cybersecurity" />
+</p>
