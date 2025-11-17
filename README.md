@@ -26,19 +26,50 @@
 ```bash
 root@Mateo:~# cat profile.txt
 - 🧠 Fullstack developer (specialized in cybersecurity)
-- 🎓 Student
-- 🧪 CTFs · Red Teaming · pentesting · AI security research
-- 🎯 Goal: ship scary-good, maintainable code that survives real abuse
+- 🎓 Student & Security Researcher
+- 🧪 Active on Root-Me, CTF competitor, Bug Bounty Hunter
+- 🎯 Goal: Build secure applications and find vulnerabilities before attackers do
 ```
 
-### 🛠️ Tech stack
+### 🛠️ Tech Stack
 ```
-Frontend : React · Next.js · TypeScript · TailwindCSS
-Backend  : Node.js · Express · NestJS · REST · GraphQL
-Database : PostgreSQL · MongoDB · Redis
-DevOps   : Docker · CI/CD · Linux · Nginx
-Security : Root-Me · CTFs · basic pentesting · Burp Suite · nmap · Wireshark
-Tools    : Git · GitHub · VSCode · tmux · Neovim
+Frontend    : React · Next.js · TypeScript · TailwindCSS
+Backend     : Node.js · Express · NestJS · REST · GraphQL
+Database    : PostgreSQL · MongoDB · Redis
+DevOps      : Docker · CI/CD · Linux · Nginx
+```
+
+### 🔓 Security Arsenal
+```bash
+# Web Application Security
+→ Burp Suite, OWASP ZAP, Nikto, Dirb/Dirbuster, ffuf
+→ SQL Injection, XSS, CSRF, IDOR, Authentication bypass
+→ OWASP Top 10, API Security Testing
+
+# Network & Reconnaissance
+→ Nmap, Masscan, Wireshark, tcpdump, Netcat
+→ Subdomain enumeration, Port scanning, Service fingerprinting
+→ theHarvester, Sherlock, OSINT frameworks
+
+# Cryptography & Password Cracking
+→ Hashcat, John the Ripper, Hydra, CrackStation
+→ Hash identification, Rainbow tables, Dictionary attacks
+→ SSL/TLS analysis, Certificate validation
+
+# Binary & Reverse Engineering
+→ Ghidra, radare2, GDB, IDA Free
+→ Buffer overflow, Format string vulnerabilities
+→ Assembly (x86/x64), ELF/PE analysis
+
+# Exploitation & Post-Exploitation
+→ Metasploit, SQLmap, Exploit-DB
+→ Privilege escalation (Linux/Windows)
+→ Pivoting, Lateral movement techniques
+
+# Tools & Environment
+→ Kali Linux, ParrotOS, VirtualBox/VMware
+→ Git, GitHub, tmux, Neovim, VSCode
+→ Python scripting for automation
 ```
 
 ---
@@ -53,42 +84,3 @@ Tools    : Git · GitHub · VSCode · tmux · Neovim
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MateoBogo&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
 </p>
 
----
-
-## 🔥 Red Team Operations Log
-
-```bash
-# === RECONNAISSANCE PHASE ===
-root@Mateo:~# whois target.com | grep -E "Name Server|Registrar"
-root@Mateo:~# subfinder -d target.com -silent | httpx -silent
-root@Mateo:~# theHarvester -d target.com -b all -f scan_results
-
-# === OSINT GATHERING ===
-root@Mateo:~# sherlock username --timeout 10
-root@Mateo:~# exiftool ./leaked_document.pdf | grep -i "author\|creator"
-root@Mateo:~# python3 phoneinfoga.py scan -n "+33612345678"
-
-# === CRYPTOGRAPHY & ANALYSIS ===
-root@Mateo:~# hashcat -m 1000 hashes.txt rockyou.txt --force
-root@Mateo:~# john --wordlist=rockyou.txt shadow.hash
-root@Mateo:~# openssl enc -aes-256-cbc -d -in encrypted.bin -out decrypted.txt
-
-# === WEB EXPLOITATION ===
-root@Mateo:~# sqlmap -u "http://target.com?id=1" --dbs --batch
-root@Mateo:~# ffuf -u https://target.com/FUZZ -w wordlist.txt -mc 200,301,302
-root@Mateo:~# nuclei -t cves/ -u target.com -severity critical,high
-
-# === POST-EXPLOITATION ===
-root@Mateo:~# mimikatz.exe "sekurlsa::logonpasswords" exit
-root@Mateo:~# bloodhound-python -u user -p pass -d domain.local -c All
-root@Mateo:~# ./linpeas.sh | tee privesc_scan.log
-
-[+] 147 vulnerabilities detected
-[+] Privilege escalation path found
-[+] Credentials harvested: 23 unique hashes
-[!] Mission accomplished. Securing environment...
-```
-
-<p align="center">
-  <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="500" alt="Cybersecurity" />
-</p>
