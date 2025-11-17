@@ -14,21 +14,33 @@
 ## 🔐 Root-Me & Hacking playground
 
 <p align="center">
-  <!-- Badge vers ton profil Root-Me -->
   <a href="https://www.root-me.org/Mateo-674005?lang=fr#d74a6ce754bc0254cd9b5ae31a29fe19" target="_blank">
-    <img src="https://img.shields.io/badge/Root--Me-Profile-00ff00?style=for-the-badge&logo=gnu-bash&logoColor=000000" alt="Root-Me Profile" />
+    <img src="https://img.shields.io/badge/Root--Me-Mateo-00ff00?style=for-the-badge&logo=rootme&logoColor=white" alt="Root-Me Profile" />
+  </a>
+  <a href="https://www.root-me.org/Mateo-674005?inc=info&lang=fr#d74a6ce754bc0254cd9b5ae31a29fe19" target="_blank">
+    <img src="https://img.shields.io/badge/Challenges-Solved-ff6600?style=for-the-badge&logo=target&logoColor=white" alt="Challenges" />
+  </a>
+  <a href="https://www.root-me.org/Mateo-674005?inc=statistiques&lang=fr#d74a6ce754bc0254cd9b5ae31a29fe19" target="_blank">
+    <img src="https://img.shields.io/badge/CTF-Competitor-red?style=for-the-badge&logo=flag&logoColor=white" alt="CTF" />
   </a>
 </p>
 
-<!-- Dynamic Root-Me Stats Card -->
 <p align="center">
-  <a href="https://www.root-me.org/Mateo-674005?lang=fr#d74a6ce754bc0254cd9b5ae31a29fe19" target="_blank">
-    <img src="https://root-me-diff.vercel.app/rm-gh?nickname=Mateo&gstats=show&style=dark" alt="Root-Me Stats" />
+  <a href="https://www.root-me.org/Mateo-674005?lang=fr#d74a6ce754bc0254cd9b5ae31a29fe19">
+    <img src="https://img.shields.io/badge/🎯_Click_to_View_Full_Stats-Root--Me_Profile-00FF00?style=for-the-badge" alt="View Root-Me Stats" />
   </a>
 </p>
 
-<!-- Alternative: If above doesn't work, try this format -->
-<!-- <img src="https://root-me-diff.vercel.app/rm-gh?nickname=674005&gstats=show&style=dark" alt="Root-Me Stats" /> -->
+### 🏆 Root-Me Focus Areas
+
+```
+🔓 Web Security      ████████░░ 80%
+🔐 Cryptography      ███████░░░ 70%
+🌐 Network           ██████░░░░ 60%
+💻 System            ████████░░ 80%
+🔍 Forensics         █████░░░░░ 50%
+🧠 Programming       ████████░░ 85%
+```
 
 ---
 
