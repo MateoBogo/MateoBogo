@@ -23,9 +23,12 @@
 <!-- Dynamic Root-Me Stats Card -->
 <p align="center">
   <a href="https://www.root-me.org/Mateo-674005?lang=fr#d74a6ce754bc0254cd9b5ae31a29fe19" target="_blank">
-    <img src="https://root-me-diff.vercel.app/rm-gh?nickname=Mateo-674005&gstats=show&style=dark" alt="Root-Me Stats" />
+    <img src="https://root-me-diff.vercel.app/rm-gh?nickname=Mateo&gstats=show&style=dark" alt="Root-Me Stats" />
   </a>
 </p>
+
+<!-- Alternative: If above doesn't work, try this format -->
+<!-- <img src="https://root-me-diff.vercel.app/rm-gh?nickname=674005&gstats=show&style=dark" alt="Root-Me Stats" /> -->
 
 ---
 
@@ -63,20 +66,38 @@ Tools    : Git · GitHub · VSCode · tmux · Neovim
 
 ---
 
-## 🔥 Live terminal mood
+## 🔥 Red Team Operations Log
 
 ```bash
-root@Mateo:~# nmap -A github.com/MateoBogo
-PORT    STATE SERVICE
-22/tcp  open  ssh
-80/tcp  open  http
-443/tcp open  https
+# === RECONNAISSANCE PHASE ===
+root@Mateo:~# whois target.com | grep -E "Name Server|Registrar"
+root@Mateo:~# subfinder -d target.com -silent | httpx -silent
+root@Mateo:~# theHarvester -d target.com -b all -f scan_results
 
-root@Mateo:~# ./run.sh
-> Pulling code...
-> Refactoring spaghetti...
-> Injecting TypeScript...
-> Deploying with 1% mercy.
+# === OSINT GATHERING ===
+root@Mateo:~# sherlock username --timeout 10
+root@Mateo:~# exiftool ./leaked_document.pdf | grep -i "author\|creator"
+root@Mateo:~# python3 phoneinfoga.py scan -n "+33612345678"
+
+# === CRYPTOGRAPHY & ANALYSIS ===
+root@Mateo:~# hashcat -m 1000 hashes.txt rockyou.txt --force
+root@Mateo:~# john --wordlist=rockyou.txt shadow.hash
+root@Mateo:~# openssl enc -aes-256-cbc -d -in encrypted.bin -out decrypted.txt
+
+# === WEB EXPLOITATION ===
+root@Mateo:~# sqlmap -u "http://target.com?id=1" --dbs --batch
+root@Mateo:~# ffuf -u https://target.com/FUZZ -w wordlist.txt -mc 200,301,302
+root@Mateo:~# nuclei -t cves/ -u target.com -severity critical,high
+
+# === POST-EXPLOITATION ===
+root@Mateo:~# mimikatz.exe "sekurlsa::logonpasswords" exit
+root@Mateo:~# bloodhound-python -u user -p pass -d domain.local -c All
+root@Mateo:~# ./linpeas.sh | tee privesc_scan.log
+
+[+] 147 vulnerabilities detected
+[+] Privilege escalation path found
+[+] Credentials harvested: 23 unique hashes
+[!] Mission accomplished. Securing environment...
 ```
 
 <p align="center">
