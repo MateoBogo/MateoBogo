@@ -73,17 +73,12 @@ mateo = {
 
 [![Skills](https://skillicons.dev/icons?i=python,ts,js,php,bash&theme=dark)](https://skillicons.dev)
 
-**Backend & AI**
+**Backend**
 
 [![Skills](https://skillicons.dev/icons?i=django,fastapi,postgres,redis,mysql&theme=dark)](https://skillicons.dev)
 
 ![Django Ninja](https://img.shields.io/badge/Django_Ninja-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP_Protocol-6E40C9?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge)
 
 **Frontend**
 
@@ -91,18 +86,44 @@ mateo = {
 
 ![Shadcn/UI](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 
+**AI / LLM & Agents**
+
+[![Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark)](https://skillicons.dev)
+
+![MCP](https://img.shields.io/badge/MCP_Protocol-6E40C9?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-1F2937?style=for-the-badge)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![RAG](https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge)
+![ReAct](https://img.shields.io/badge/ReAct_Agent-1C3C3C?style=for-the-badge)
+![Tool Calling](https://img.shields.io/badge/Tool_Calling-10B981?style=for-the-badge)
+![Vector DB](https://img.shields.io/badge/Vector_DB-4169E1?style=for-the-badge)
+
+**MLOps & Local LLM**
+
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![LM Studio](https://img.shields.io/badge/LM_Studio-4F46E5?style=for-the-badge)
+![vLLM](https://img.shields.io/badge/vLLM-1E90FF?style=for-the-badge)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-111111?style=for-the-badge)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![W&B](https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+![Fine-Tuning](https://img.shields.io/badge/Fine--Tuning-FF4081?style=for-the-badge)
+![LoRA](https://img.shields.io/badge/LoRA%2FQLoRA-9333EA?style=for-the-badge)
+
 **DevOps & Cloud**
 
 [![Skills](https://skillicons.dev/icons?i=docker,nginx,azure,git,githubactions,linux&theme=dark)](https://skillicons.dev)
 
-**Offensive Security**
+**AI Security & Red-Teaming**
 
-![Pentest](https://img.shields.io/badge/AI_Pentest-000000?style=for-the-badge&logo=hackthebox&logoColor=white)
+![AI Pentest](https://img.shields.io/badge/AI_Pentest-000000?style=for-the-badge&logo=hackthebox&logoColor=white)
 ![Prompt Injection](https://img.shields.io/badge/Prompt_Injection-FF6F00?style=for-the-badge)
-![BloodHound](https://img.shields.io/badge/BloodHound-A41E22?style=for-the-badge)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-F63F0C?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
+![LLM Red-Team](https://img.shields.io/badge/LLM_Red--Team-E00404?style=for-the-badge)
+![MCP Security](https://img.shields.io/badge/MCP_Security-6E40C9?style=for-the-badge)
+![Jailbreaking](https://img.shields.io/badge/Jailbreaking-8B0000?style=for-the-badge)
+![Agent Hijacking](https://img.shields.io/badge/Agent_Hijacking-4B0082?style=for-the-badge)
 
 </div>
 
