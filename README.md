@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://mateogargat.fr"><img src="https://img.shields.io/badge/Portfolio-mateogargat.fr-0B6BFF?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mat%C3%A9o-gargat-953067235/"><img src="https://img.shields.io/badge/LinkedIn-Mat%C3%A9o%20Gargat-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:gargat@esiea.fr"><img src="https://img.shields.io/badge/Email-gargat%40esiea.fr-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:gargat@et.esiea.fr"><img src="https://img.shields.io/badge/Email-gargat%40esiea.fr-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.root-me.org/Mateo-674005?lang=fr"><img src="https://img.shields.io/badge/Root--Me-Top%20260-E00404?style=flat-square&logo=hackthebox&logoColor=white" alt="Root-Me" /></a>
 </p>
 
